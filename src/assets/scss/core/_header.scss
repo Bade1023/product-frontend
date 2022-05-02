@@ -1,0 +1,27 @@
+.ant-layout-header {
+  width: 100%;
+  height: 50px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  background: #2076c7;
+}
+.header-usermain {
+  right: 30px;
+  position: absolute;
+  height: 50px;
+  padding-top: 0px;
+  display: flex;
+  vertical-align: middle;
+}
+.header-usermain .username {
+  margin-top: -6px;
+  height: 50px;
+  color: #fff;
+}
+.header-usermain .ant-avatar {
+  top: 14px;
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+}

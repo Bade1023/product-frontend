@@ -1,0 +1,190 @@
+.app-container-block {
+  position: fixed;
+  z-index: 99999;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+.ant-layout-sider {
+  width: 260px !important;
+  height: 100%;
+  flex: none !important;
+  background: #34485e !important;
+  min-width: 260px !important;
+  max-width: 260px !important;
+}
+.ant-layout-sider .logo {
+  max-height: 50px;
+  height: 50px;
+  padding: 7px 25px;
+  width: 260px;
+  background: #001529;
+}
+.input {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  min-width: 0;
+  padding-bottom: 20px;
+  padding-left: 158px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  transition: all 0.3s;
+}
+
+.ant-layout-sider .logo img {
+  height: 100%;
+}
+.ant-layout-sider .left-layout {
+  height: calc(100% - 100px);
+}
+.content {
+  overflow: visible;
+  transition: all 0.3s;
+  height: 100%;
+  padding: 0px;
+  background: #f0f2f5;
+  position: relative;
+  // width: calc(100% - 260px);
+  width: 100% !important;
+}
+.breadcrumb-menu {
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  padding: 10px 0px;
+}
+.breadcrumb-menu a {
+  color: #4c4c4c;
+  padding: 10px;
+}
+.breadcrumb-menu a:first-child {
+  padding-left: 0px;
+}
+.breadcrumb-menu a:last-child {
+  font-weight: 600;
+}
+.version_name {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #c6c6c6;
+  font-size: 14px;
+  font-weight: 300;
+}
+.content .main-content {
+  height: calc(100% - 180px);
+  margin: 30px;
+  margin-top: 70px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+}
+.content .main-content .button-container {
+  width: fit-content;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+}
+.content .main-content .button-gateway {
+  width: fit-content;
+  position: absolute;
+  top: 70px;
+  right: 190px;
+}
+.content .main-content .button-gatewayparam {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  .content .main-content .button-gatewayparam button {
+    position: relative;
+  }
+}
+.content .main-content .button-gateway button {
+  border-radius: 50px;
+  background: #5fb0e7;
+  color: #fff;
+  position: relative;
+  height: 33px;
+}
+.content .main-content .button-container button {
+  border-radius: 50px;
+  background: #5fb0e7;
+  color: #fff;
+  position: relative;
+  height: 33px;
+}
+.content .main-content .button-container button:after {
+  top: 13px;
+  left: 24px;
+  height: 5px;
+  width: 5px;
+  color: #fff;
+  background: #fff;
+  position: absolute;
+}
+.ant-table-thead > tr > th {
+  position: relative;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  background: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.3s ease;
+}
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 0px 20px !important;
+}
+
+.left-layout {
+  position: fixed;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.ant-table-wrapper {
+  clear: both;
+  max-width: 100%;
+  background: #fff;
+  padding: 30px;
+}
+.middle-container {
+  height: calc(100%);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 500px) {
+}
+
+#img {
+  margin-right: 15px;
+}
